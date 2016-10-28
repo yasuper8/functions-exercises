@@ -66,3 +66,17 @@ function pythagoreanTheorem(a, b) {
 var result = pythagoreanTheorem(3, 4);
 console.log(result);
 // should display 5;
+
+
+//#5
+function isXEvenlyDivisibleByY(x, y) {
+	// TODO: Place your code here
+	if (x % y === 0) {
+		 return true;
+ 	}
+ 	return false;
+}
+
+var result = isXEvenlyDivisibleByY(99, 3);
+console.log(result);
+// displays true

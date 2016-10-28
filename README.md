@@ -130,6 +130,10 @@ Return a boolean value whether or not X can be divided by Y without any remainde
 ```javascript
 function isXEvenlyDivisibleByY(x, y) {
 	// TODO: Place your code here
+	if (x % y === 0) {
+		 return true;
+ 	}
+ 	return false;
 }
 
 var result = isXEvenlyDivisibleByY(99, 3);
